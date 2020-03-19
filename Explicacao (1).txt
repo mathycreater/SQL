@@ -1,0 +1,67 @@
+Comandos DDL (Data def language) -COLUNA
+	CREATE | ALTER | DROP | ADD (Para adicionar algo na tabela) : Nomenclatura Sem Aspas visto que falam da estrutura
+DDL serve pra manipular sua ESTRUTURA de banco
+
+Comandos DML (Data Manipulation Language) REGISTRO (Linha) - Nomenclatura com aspas simples '' 
+	 INSERT | DELETE | UPDATE
+DML Serve para manipular linhas(registros) de uma Tabela
+
+Comandos DQL(Data Query Language) - Consultas
+	SELECT 
+
+Principais SGBD
+	"SQL Server - Microsoft (Licensa estudante) - Interfaces (Azure Magment Studio, SSMS)";
+	Oracle - Oracle (Licensa estudante) - SQL Developer;
+	MySQL - Oracle (Licensa gratuita) - MySQL Workbench, PHPMyAdmin;
+	MariaDb - OpenSource ? - MySQL Workbench
+	Postgree - Grauita
+	
+	
+TIPOS DE VARIAVEIS
+	int 1,2,3,4100
+	decimal 0.5, 0.5
+	float 1.3333333, 3333.333
+	
+	char(1) - 'M', 'F' -SEMRPE VAI TER 1 CARACTERE
+	char(11) - '0587407476 ' - SEMPRE VAI TER 11 CARACTERES
+	varchar(11) - Até 11 caracteres
+	varchar(max) - 2milhoes
+	text
+	
+	datetime - Representação completa de data 
+	smalldatetime - Representação yyyy-MM-dd HH:mm:ss
+	
+-- Utilizada tanto no DML quanto no DQL
+WHERE: 
+	COLUNA = valor | >, <, >=, <, <=, !=, in, like, between
+
+ORDER BY NOMECOLUNA OU POSICAO_COLUNA(ASC)  |desc, ASC 	
+	
+	
+-- primary key : Não repetir dados, e autogerar o codigo
+--foregn key
+
+
+
+--DQL : join
+
+
+
+
+--Pegar data atual
+Getdate()
+
+
+
+Criar 10 pacientes
+Criar 5 medicos
+
+Criar 2 consultas
+
+Em determinado momento, ocorrera uma troca de medicos em uma consulta 
+(Crie query para isso)
+
+
+Em outro momento 1 medico pedirá demissao
+
+
