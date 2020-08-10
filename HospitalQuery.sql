@@ -4,7 +4,7 @@ create table Pacientes(
 	Codigo int not null primary key identity (1,1),
 	Nome varchar(100) not null,
 	Sexo char(1) not null,
-	CPF varchar(11) not null,
+	CPF char(11) not null,
 	Email varchar(100)
 
 )
